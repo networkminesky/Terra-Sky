@@ -9,7 +9,5 @@ dependencies {
     implementation("org.apache.commons", "commons-text", Versions.Libraries.Internal.apacheText)
     implementation("com.dfsek.tectonic", "yaml", Versions.Libraries.tectonic)
 
-
-
     implementation("com.dfsek", "paralithic", Versions.Libraries.paralithic)
 }

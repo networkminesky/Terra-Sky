@@ -5,8 +5,6 @@ dependencies {
 
     api("org.incendo", "cloud-core", Versions.Libraries.cloud)
 
-
-
     api("com.github.ben-manes.caffeine", "caffeine", Versions.Libraries.caffeine)
 
     api("com.dfsek.tectonic", "common", Versions.Libraries.tectonic)
