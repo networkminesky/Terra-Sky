@@ -16,6 +16,13 @@ tasks.withType<JavaCompile>().configureEach {
     options.release = 25
 }
 
+paperweight {
+    // Force the userdev setup to run with Java 25
+    javaLauncher.set(javaToolchains.launcherFor {
+        languageVersion.set(JavaLanguageVersion.of(25))
+    })
+}
+
 tasks {
     shadowJar {
         relocate("io.papermc.lib", "com.dfsek.terra.lib.paperlib")
